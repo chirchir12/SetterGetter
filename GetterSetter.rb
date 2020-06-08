@@ -14,3 +14,11 @@ class SetterGetter
     
 end
 
+
+obj = SetterGetter.new 'chirchir'
+
+puts obj.get_name
+
+obj.set_name = 'Hilarion'
+
+puts obj.get_name
